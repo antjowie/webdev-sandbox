@@ -16,6 +16,12 @@ section {
     margin-bottom: 4em;
 }
 
+footer {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
 [class*="container"] > h2{
     padding-top: 0.5em;
     text-align: center;

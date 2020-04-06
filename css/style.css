@@ -2,49 +2,72 @@
 
 body {
     color: #c6cbd0;
-    background-color: #3e4245;
+    background-color: #0d0d0d;
 }
 
-[class*="container"] {
-    background-color: #181a1b;
+main {
+    margin-top: 56px;
+}
 
+section {
+    background-color: #181a1b;
+    padding-bottom: 4em;
+    margin-bottom: 4em;
+}
+
+[class*="container"] > h2{
+    padding-top: 0.5em;
+    text-align: center;
+    margin: auto;
 }
 
 hr {
     background-color: #c6cbd0;
+    margin-bottom: 2em;
 }
 
 /* Carousel */
+.carousel-item h3{
+    font-size: 5vw;
+}
+
+.carousel-item p{
+    font-size: 3vw;
+}
+
+.carousel-item a button{
+    font-size: 2vw;
+}
 
 .carousel-item img{
     justify-content: center;
-
+    
     height: 50vw;
     min-height: 50vh;
+    /* height: 60vh; */
     overflow: hidden;
     object-fit: cover;
     filter: brightness(50%);
 }
 
 .carousel-caption {
-    bottom: 5rem;
+    top: auto;
+    left: 16vw;
+    max-width: 50vw;
+    bottom: 12vw;
     z-index: 10;
 }
+
 
 /* About */
 .about img {
     border-radius: 50%;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     height: auto;
     margin: auto;
     display: block;
     
     /* justify-content: center; */
     /* text-align: center; */
-}
-
-.about > h2{
-    padding-top: 0.5em;
-    text-align: center;
-    margin: auto;
 }

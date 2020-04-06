@@ -89,19 +89,9 @@ hr {
 .flex-cards .card {
     margin: 0.5em;
     width: calc(33% - 1em);
-    /* height: auto; */
-
-    /* box-sizing: border-box;
-    box-shadow: none;
-    transform:scale(1); */
     
     transition: all 0.25s ease-out;
     overflow: hidden;
-}
-@media only screen and (min-width: 600px) {
-.flex-cards .card {
-    width: calc(20% - 1em);
-}
 }
 
 .flex-cards .card .card-img-overlay {
@@ -115,6 +105,16 @@ hr {
     font-size: 5vw;
 
     transition: all 0.25s ease-in-out;   
+}
+
+@media only screen and (min-width: 600px) {
+    .flex-cards .card {
+        width: calc(20% - 1em);
+    }
+
+    .flex-cards .card .card-title {
+        font-size: 3vw;
+    }
 }
 
 .flex-cards .card:hover {

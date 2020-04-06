@@ -48,6 +48,10 @@
 }
 
 /* Skills */
+.skills p {
+    padding-bottom: 20px;
+}
+
 .skills .flex-cards{
     display: flex;
     justify-content: left;

@@ -38,3 +38,13 @@ hr {
     display: block;
     margin: auto;
 }
+
+.navbar {
+    /* background-color: rgb(64,64,64) !important; */
+    /* background-color: red; */
+}
+
+header nav a img {
+    border-radius: 50%;
+    box-shadow: 0 0 1px rgb(64,64,64);
+}

@@ -17,3 +17,7 @@
     height: 50%;
     object-fit: cover;
 }
+
+.projects .card footer {
+    width: 100%;
+}

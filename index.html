@@ -115,6 +115,7 @@
     <!-- Features -->
     <section class="about">
       <div class="container">
+        
         <h2 class="display-4">About</h2>
         <hr />
         <div class="row">
@@ -126,7 +127,7 @@
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
               condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
               Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p><a class="btn btn-outline-light" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
       </div>
@@ -137,55 +138,101 @@
       <div class="container">
         <h2 class="display-4">Skills</h2>
         <hr />
-        <div class="row">
-          <div class="col-sm-4">
-            <!-- <img src="img/site-icon.png"> -->
-          </div>
-          <div class="col-sm-8">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-              condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.
-              Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <p class="lead">
+          Languages and technologies that I have experience with.
+        </p>
+        <div class="flex-cards">
+          <div class="flex-cards">
+            <a class="card text-center" href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">
+              <img class="card-img" src="img/languages/csharp.jpg" alt="C sharp logo">
+              <div class="card-img-overlay">
+                <h4 class="card-title">C Sharp</h4>
+              </div>
+            </a>
+            <a class="card text-center" href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">
+              <img class="card-img" src="img/languages/cpp.png" alt="Card image cap">
+              <div class="card-img-overlay">
+                <h4 class="card-title">C++</h4>
+              </div>
+            </a>
+            <a class="card text-center" href="https://www.python.org/" target="_blank">
+              <img class="card-img" src="img/languages/python.jpg" alt="python logo">
+              <div class="card-img-overlay">
+                <h4 class="card-title">Python</h4>
+              </div>
+            </a>
+            <a class="card text-center" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
+              <img class="card-img" src="img/languages/js.jpg" alt="Card image cap">
+              <div class="card-img-overlay">
+                <h4 class="card-title">JavaScript</h4>
+              </div>
+            </a>
+            <a class="card text-center" href="https://en.wikipedia.org/wiki/Java_(programming_language)"
+              target="_blank">
+              <img class="card-img" src="img/languages/java.jpg" alt="Card image cap">
+              <div class="card-img-overlay">
+                <h4 class="card-title">Java</h4>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Projects -->
-    <div class="container-fluid skills">
-      <h2 class="display-4">Projects</h2>
-      <hr />
-      <div class="card-deck">
-        <div class="card">
-          <img src="img/empires.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/gauntlet.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="img/runaway.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-              content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <section class="projects">
+      <div class="container">
+        <h2 class="display-4">Projects</h2>
+        <hr />
+        <div class="row row-cols-1 row-cols-lg-2">
 
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="img/empires.png" class="card-img-top" alt="...">
+
+              <div class="card-body">
+                <a href="#" class="stretched-link"></a>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content.</p>
+              </div>
+
+              <footer class="card-footer text-muted">Last updated 3 mins ago</footer>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card h-100 ">
+              <img src="img/gauntlet.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="stretched-link"></a>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <footer class="card-footer text-muted">Last updated 3 mins ago</footer>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card h-100 ">
+              <img src="img/runaway.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href="#" class="stretched-link"></a>
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content.</p>
+              </div>
+              <footer class="card-footer text-muted">Last updated 3 mins ago</footer>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="btn btn-outline-light centered" href="#" role="button">All projects &raquo;</a>
+
+      </div>
+      </div>
+    </section>
 
   </main>
 

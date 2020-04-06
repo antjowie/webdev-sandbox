@@ -103,26 +103,6 @@
 }
 
 /* Projects */
-.projects .card {
-    background-color: transparent;
-    border: solid 1px #c6cbd0;
-    overflow: hidden;
-    /* width: 30rem; */
-    height: 150%;
-
-    transition: all 0.25s ease-in-out;
-}
-
-.projects .card:hover {
-    transform: scale(1.05);
-    border: solid 2px white;
-}
-
-.projects .card img {
-    height: 50%;
-    object-fit: cover;
-}
-
 .projects .btn {
     /* background-color: red; */
     font-size: 3vh;

@@ -10,6 +10,12 @@ body {
 
 }
 
+hr {
+    background-color: #c6cbd0;
+}
+
+/* Carousel */
+
 .carousel-item img{
     justify-content: center;
 
@@ -23,4 +29,22 @@ body {
 .carousel-caption {
     bottom: 5rem;
     z-index: 10;
+}
+
+/* About */
+.about img {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    display: block;
+    
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.about > h2{
+    padding-top: 0.5em;
+    text-align: center;
+    margin: auto;
 }

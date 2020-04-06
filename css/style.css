@@ -1,0 +1,26 @@
+/* Theming */
+
+body {
+    color: #c6cbd0;
+    background-color: #3e4245;
+}
+
+[class*="container"] {
+    background-color: #181a1b;
+
+}
+
+.carousel-item img{
+    justify-content: center;
+
+    height: 50vw;
+    min-height: 50vh;
+    overflow: hidden;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.carousel-caption {
+    bottom: 5rem;
+    z-index: 10;
+}

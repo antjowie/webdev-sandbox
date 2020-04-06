@@ -4,6 +4,8 @@ body {
     color: #c6cbd0;
     background-color: #0d0d0d;
     scroll-behavior: smooth;
+
+    font-family: "Trebuchet MS", sans-serif;
 }
 
 main {

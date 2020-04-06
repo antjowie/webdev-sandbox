@@ -1,3 +1,26 @@
-h2 {
-    padding-bottom: 1em;
+h1 {
+    color: #c6cbd0;
+    margin-bottom: 0.5em;
+}
+
+.blog div {
+    margin-bottom: 2em;
+    color: #8a8a8a;
+}
+
+.blog article {
+
+    border-bottom: dashed 1px #585858;
+    padding: 10px 0;
+}
+
+.blog article .title {
+    color: #c6cbd0;
+
+    font-weight: bold;
+}
+
+.blog article .date {
+    color: #8a8a8a;
+    float: right;
 }
